@@ -1,10 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,1);
   float: left;
   position: fixed;
   width: 100%;
@@ -19,8 +20,29 @@ nav {
   width: 100%;
 }
 
+h1 {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase; /* All characters will be uppercase */
+  line-height: 1.2;
+  padding: 15px;    
+ 
+  }
+
+h3 {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    padding: 20px;
+}
+
 .medium-pic {
-  width: 70%;
+  width: 100%;
 }
 
 .left, .right {
@@ -32,9 +54,19 @@ nav {
   float: right;
 }
 
+a {
+  text-decoration-line: none;   
+}
+
+a:link { color:#ffffff; } /* unvisited */
+a:visited { color:#ffffff; } /* visited */
+a:hover { color:#e7a614; } /* mouse over */
+a:active { color:#ffffff; } /* selected */ 
+
 ul {
   list-style-type: none;
   float: right;
+  font-size: 22px;       
 }
 
 li {
@@ -44,6 +76,10 @@ li {
 
 article {
   padding-top: 100px;
+  color: #000000;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: normal;
 }
 
 .container {
